@@ -1,0 +1,91 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+
+@zaksignu
+zaksignu
+/
+Net_Java_QA_3_3
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Net_Java_QA_3_3/.gitignore
+@zaksignu
+zaksignu Initial commit
+Latest commit e56a4cc on Dec 24, 2021
+ History
+ 1 contributor
+47 lines (41 sloc)  490 Bytes
+
+Thumbs.db*
+.DS_Store*
+HELP.md
+.gradle
+build/
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Package Files ###
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Exclusions ###
+!gradle/wrapper/gradle-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Net_Java_QA_3_3/.gitignore at master · zaksignu/Net_Java_QA_3_3
