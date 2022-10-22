@@ -37,12 +37,13 @@ public class AppTest {
     public void sampleTest() {
         AppPage appPage = new AppPage(driver);
         Assertions.assertTrue(appPage.textField.isDisplayed());
+        Assertions.assertTrue(appPage.textToBeChange.isDisplayed());
+        String expected = appPage.textToBeChange.getText();
         appPage.textField.click();
         appPage.textField.clear();
         Assertions.assertTrue(appPage.changeItButton.isDisplayed());
         appPage.changeItButton.click();
         String actual = appPage.textToBeChange.getText();
-        String expected = expectedText;
         Assertions.assertEquals(expected, actual);
 
     }
